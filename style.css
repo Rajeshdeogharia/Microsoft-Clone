@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.bodystyle{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.logostyle{
+    height: 25px !important;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 450px !important;
+}
+
+  .carousel-item{
+    position: relative;
+    z-index: 1;
+  }
+  .carousel-caption{
+    position: absolute;
+    top: 10% !important;
+    left: 7% !important;
+    color: black;
+  }
+  .carousel-caption h3{
+    text-align: left !important;
+    color: black !important;
+  }
+  .carousel-caption p{
+    text-align: left !important;
+    color: black !important;
+  }
+  .carousel-caption button{
+      background-color: blue;
+      color: white !important;
+      font-size: 15px;
+      padding: 8px 20px;
+      border: none !important;
+      position: absolute;
+      left: 0;
+  }
+  main{
+    margin: 40px 0;
+  }
+
+  .card{
+    border: none !important;
+  }
+
+  .card-body{
+    padding: 5px 0 !important;
+  }
+
+  .card-img-top{
+    height: 170px !important;
+  }
+
+  .bannerstyle{
+    width: 100%;
+    height: 450px;
+    background-image: url('./Images/Banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white !important;
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10px;
+  }
+ .bannerstyle button{
+    color: white;
+    background-color: blue;
+    font-size: 17px;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px 0px;
+    font-weight: bold;
+ }
+
+ .followsection{
+  margin: 20px 0px;
+  font-size: 20px;
+ }
+
+ .followsection i{
+  color: black;
+ }
+
+ footer{
+  background-color: lightgray;
+  padding: 40px 0px;
+ }
+
+ footer li{
+  list-style: none;
+ }
+ footer li a{
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+ }
+ footer li a:hover{
+  color: black;
+  font-size: 13px;
+ }
+ footer .row p{
+  font-weight: bold;
+ }
+ .footerbottom{
+  display: flex;
+  justify-content: space-evenly;
+ }
+
+ .footerbottom p{
+  font-size: 15px;
+ }
+ .footerleft{
+  font-size: 15px;
+ }
